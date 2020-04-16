@@ -1,0 +1,106 @@
+/*Clases*/
+.parrafo { 
+	font-size: 20px
+}
+.TextoPieImagen {
+	font-size: 11px
+}
+.TextoPiePagina { 
+	font-size: 15px;
+}
+.Link {
+	font-size: 20px;
+	color: #483D8B;
+}
+
+.Video{
+	background: #000000;
+}
+.Boton{
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	background-color: #87CEEB;
+	border: 0px;
+	padding: 5px;
+}
+/*Id JavaScript*/
+#estado {
+	display: none;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 5px;
+	background-color: yellow;
+	color: red;
+	font-weight:bold;	
+}
+#CajitaSensible{
+	width: 70px;
+	height: 10px;
+	background: #66CDAA;
+}
+/*Id HTML*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header, section, footer, aside, nav{
+	display: block;
+}
+
+#Agrupar {
+	width: 1080px;
+	background: #00FFFF;
+	margin: 15px auto;
+	text-align: left;
+}
+
+	#Cabecera {
+		background: #008B8B;
+		border: 3px solid #999999;
+		padding: 20px;
+	}
+		#TituloPrincipal {
+			font-size: 30px;
+			text-align: center;
+		}
+
+	#Menu {
+		background: #008080;
+		padding: 5px 15 px;
+		border: 3px solid #999999;
+	}
+
+	#Menu li{
+		display: inline-block;
+		list-style: none;
+		padding: 5px;
+		font: bold 14px verdana, sans-serif;
+	}
+		#Reloj{
+			background: #66CDAA;
+			border: 3px solid #999999
+		}
+		
+	#Seccion{
+		float: left;
+		width: 660px;
+		margin: 20px;
+	}
+	
+	#Columna{
+		float: left;
+		width: 340px;
+		margin: 20px 0px;
+		padding: 20px;
+		background: #008080;
+	}
+	#Pie{
+		clear:both;
+		text-align: center;
+		padding:20px;
+		border-top: 4px solid #999999;
+		background: #20B2AA
+	}
